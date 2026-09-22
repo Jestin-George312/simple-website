@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toy Car Collection</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f4f8;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff4b2b, #ff416c);
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .car-card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .car-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .car-info {
+      padding: 18px;
+      text-align: center;
+    }
+
+    .car-info h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    .car-info p {
+      margin: 0;
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      margin-top: 40px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚗 Toy Car Collection</h1>
+    <p>Explore our colorful collection of miniature cars!</p>
+  </header>
+
+  <main class="container">
+
+    <div class="car-grid">
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1617886322168-72b886573c91?auto=format&fit=crop&w=600&q=80"
+          alt="Red toy car">
+        <div class="car-info">
+          <h2>Red Racer</h2>
+          <p>Speed Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1594784050647-7a4f8d8c8c8e?auto=format&fit=crop&w=600&q=80"
+          alt="Blue toy car">
+        <div class="car-info">
+          <h2>Blue Speedster</h2>
+          <p>Sport Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c5?auto=format&fit=crop&w=600&q=80"
+          alt="Classic toy car">
+        <div class="car-info">
+          <h2>Classic Mini</h2>
+          <p>Vintage Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=600&q=80"
+          alt="Sports toy car">
+        <div class="car-info">
+          <h2>Super Sport</h2>
+          <p>Racing Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?auto=format&fit=crop&w=600&q=80"
+          alt="Toy vehicle">
+        <div class="car-info">
+          <h2>City Cruiser</h2>
+          <p>Urban Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=600&q=80"
+          alt="Toy sports car">
+        <div class="car-info">
+          <h2>Lightning</h2>
+          <p>Turbo Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=600&q=80"
+          alt="Toy racing car">
+        <div class="car-info">
+          <h2>Racing Pro</h2>
+          <p>Track Edition</p>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img
+          src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=600&q=80"
+          alt="Toy car">
+        <div class="car-info">
+          <h2>Golden Cruiser</h2>
+          <p>Luxury Edition</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>🚘 Toy Car Collection © 2026</p>
+  </footer>
+
+</body>
+</html>
+
+
+
